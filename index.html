@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CV — Développeur Full Stack</title>
+<meta name="description" content="CV interactif — Développeur Full Stack JavaScript & DevOps" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Bouton d'export, masqué à l'impression -->
+  <button id="download-btn" class="download-btn no-print" type="button" aria-label="Télécharger le CV en PDF">
+  </button>
+
+  <main class="page" id="page">
+
+    <!-- HEADER -->
+    <header class="card header" id="header"></header>
+
+    <!-- LAYOUT PRINCIPAL -->
+    <div class="layout">
+
+      <!-- COLONNE GAUCHE -->
+      <aside class="sidebar" id="sidebar">
+        <section class="card" id="skills-card"></section>
+        <section class="card" id="education-card"></section>
+        <section class="card" id="languages-card"></section>
+        <section class="card" id="interests-card"></section>
+      </aside>
+
+      <!-- COLONNE DROITE -->
+      <div class="main-col" id="main-col">
+        <section class="card" id="profile-card"></section>
+        <section class="card" id="projects-card"></section>
+        <section class="card" id="experience-card"></section>
+      </div>
+
+    </div>
+  </main>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
