@@ -112,6 +112,37 @@ Développeur Full Stack JavaScript en 3ᵉ année de licence à l'université de
   // PROJETS
   // =========================
   projects: [
+     {
+      name: "Project Management SaaS",
+      type: "Plateforme collaborative de gestion de projets",
+
+      problem:
+        "Les équipes ont besoin d'un espace unique pour organiser les tâches, collaborer et suivre l'avancement des projets.",
+
+      solution:
+        "Développement d'une plateforme collaborative avec espaces de travail, tableaux Kanban, rôles utilisateurs, gestion des membres et statistiques des projets.",
+
+      stack: [
+        "Next.js",
+        "TypeScript",
+        "Prisma ORM",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "Inngest",
+        "Docker",
+      ],
+
+      features: [
+        "Workspaces collaboratifs.",
+        "Gestion des tâches.",
+        "Kanban.",
+        "RBAC.",
+        "Dashboard analytique.",
+      ],
+
+      github: "https://github.com/Fred120-code/project-manager.git",
+      demo: "https://project-manager-client-gold.vercel.app/",
+    },
     {
       name: "SmartStock",
       type: "Application SaaS de gestion de stock",
@@ -178,37 +209,7 @@ Développeur Full Stack JavaScript en 3ᵉ année de licence à l'université de
       demo: "",
     },
 
-    {
-      name: "Project Management SaaS",
-      type: "Plateforme collaborative de gestion de projets",
-
-      problem:
-        "Les équipes ont besoin d'un espace unique pour organiser les tâches, collaborer et suivre l'avancement des projets.",
-
-      solution:
-        "Développement d'une plateforme collaborative avec espaces de travail, tableaux Kanban, rôles utilisateurs, gestion des membres et statistiques des projets.",
-
-      stack: [
-        "Next.js",
-        "TypeScript",
-        "Prisma ORM",
-        "PostgreSQL",
-        "Tailwind CSS",
-        "Inngest",
-        "Docker",
-      ],
-
-      features: [
-        "Workspaces collaboratifs.",
-        "Gestion des tâches.",
-        "Kanban.",
-        "RBAC.",
-        "Dashboard analytique.",
-      ],
-
-      github: "https://github.com/Fred120-code/project-manager.git",
-      demo: "https://project-manager-client-gold.vercel.app/",
-    },
+   ,
   ],
 
   // =========================
